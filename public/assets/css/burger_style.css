@@ -1,0 +1,38 @@
+body {
+  background-color: #FFC357;
+}
+
+.logo {
+  height: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.menu__burger p, .eaten__burger p {
+  display: inline-block;
+  width: 79%;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.eaten__burger p {
+  display: block;
+  padding: 5px 20px;
+  margin: 0 auto;
+  color: #999;
+  border-radius: 0;
+}
+
+.change-devour {
+  display: inline-block;
+  width: 20%;
+}
+
+.add-burger {
+  text-align: center;
+}
